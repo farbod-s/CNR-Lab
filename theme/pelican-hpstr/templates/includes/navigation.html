@@ -1,0 +1,37 @@
+<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
+    <button class="dl-trigger">{{ _('Open Menu') }}</button>
+    <ul class="dl-menu">
+        <li><a href="{{ SITEURL }}">{{ _('Home') }}</a></li>
+        <li>
+            <a href="#">{{ _('About') }}</a>
+            <ul class="dl-submenu">
+                <li>
+                    <img src="{{ SITEURL }}/images/{{ AVATAR if AVATAR else 'avatar.jpg'}}" alt="{{ AUTHOR }} photo" class="author-photo">
+                    <h4>{{ AUTHOR }}</h4>
+                    <p>{{ AUTHOR_ABOUT }}</p>
+                </li>
+                <li><a href="{{ SITEURL }}/about.html">{{ _('Learn More') }}</a></li>
+                {% if EMAIL %}
+                <li>
+                <a href="mailto:{{ EMAIL }}"><i class="fa fa-envelope"></i> {{ _('Email') }}</a>
+                </li>
+                {% endif %}
+                {% for social in SOCIAL %}
+                <li>
+                    <a href="{{ social[1] }}"><i class="fa fa-{{ social[0] }}"></i>{% if social|length == 3 %}{{ social[2] }}{% else %}{{ social[0] | capitalize }}{% endif %}</a>
+                </li>
+                {% endfor %}
+            </ul><!-- /.dl-submenu -->
+        </li>
+        <li>
+            <a href="#">{{ _('Posts') }}</a>
+            <ul class="dl-submenu">
+                <li><a href="{{ SITEURL }}/tags.html">{{ _('All Tags') }}</a></li>
+                <li><a href="{{ SITEURL }}/categories.html">{{ _('All Categories') }}</a></li>
+            </ul>
+        </li>
+        {# TODO
+            {% for link in site.links %}<li>{% if link.external %}<a href="{{ link.url }}">{{ link.title }}</a>{% else %}<a href="{{ SITEURL }}{{ link.url }}">{{ link.title }}</a>{% endif %}</li>{% endfor %}
+        #}
+    </ul><!-- /.dl-menu -->
+</nav><!-- /.dl-menuwrapper -->
