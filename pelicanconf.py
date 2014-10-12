@@ -7,11 +7,11 @@ from __future__ import unicode_literals
 JINJA_EXTENSIONS = ['jinja2.ext.i18n']
 
 # User info
-AUTHOR = u'Your name'
+AUTHOR = u'Farbod Samsamipour | Payam Mohajeri'
 AUTHOR_ABOUT = u'Your bio goes here. It shouldn\'t be super long but a good two sentences or two should suffice.'
 
-SITENAME = u'Site Title'
-SITEURL = ''
+SITENAME = u'CNRLab'
+SITEURL = 'http://127.0.0.1:8000'
 
 # Directories configuration
 PATH = 'content'

@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/index.html</loc>
-<lastmod>2014-10-12T11:10:46-00:00</lastmod>
+<lastmod>2014-10-12T11:48:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2014-10-12T11:10:46-00:00</lastmod>
+<lastmod>2014-10-12T11:48:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2014-10-12T11:10:46-00:00</lastmod>
+<lastmod>2014-10-12T11:48:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2014-10-12T11:10:46-00:00</lastmod>
+<lastmod>2014-10-12T11:48:45-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -165,7 +165,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>/author/your-name.html</loc>
+<loc>/author/farbod-samsamipour-payam-mohajeri.html</loc>
 <lastmod>2013-08-20T00:00:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
