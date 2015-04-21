@@ -1,0 +1,24 @@
+/*********************************************************************
+Custom Stylesheet: defines specific styles for alternate templates or pages
+**********************************************************************/
+
+.member {
+	display: inline-block;
+	text-align: center;
+	margin:20px;
+}
+
+.member-name {
+	display: inline-block;
+}
+
+.member-photo img {
+	width: 100px;
+	height: 100px;
+	box-sizing:border-box;
+	-webkit-border-radius:50%;
+		-moz-border-radius:50%;
+			border-radius:50%;	
+	margin: 0 0 20px 0;
+	display: inline-block;
+}
