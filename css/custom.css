@@ -2,6 +2,10 @@
 Custom Stylesheet: defines specific styles for alternate templates or pages
 **********************************************************************/
 
+.members-section {
+	text-align: center;
+}
+
 .member {
 	display: inline-block;
 	text-align: center;
