@@ -26,3 +26,76 @@ Custom Stylesheet: defines specific styles for alternate templates or pages
 	margin: 0 0 20px 0;
 	display: inline-block;
 }
+
+#onthispage {
+	text-align: justify;
+}
+
+.personalInfo {
+	margin-left:50px;
+}
+
+.member-publication ul {
+	list-style-type: decimal; 
+}
+
+.member-publication li {
+	 margin:10px;
+}
+
+.pic-section {
+	width: 250px;
+	height: 250px;
+	float:right;
+	margin:15px;
+	margin-right: 20px;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.pic-section .member-photo img {
+	width: 200px;
+	height: 200px;
+	box-sizing:border-box;
+	-webkit-border-radius:0%;
+		-moz-border-radius:0%;
+			border-radius:0%;	
+}
+
+#content_main {
+	float:left;
+}
+
+.member-education ul {
+	list-style-type: disc;
+}
+
+.member-experience ul {
+	list-style-type: disc;
+}
+
+.member-skill ul {
+	list-style-type: disc;
+}
+
+.member-education li {
+	margin:10px;
+}
+
+.member-experience li {
+	margin:10px;
+}
+
+.member-skill li {
+	margin:10px;
+}
+
+.project-members .member {
+	margin: 5px;
+}
+
+.project-members .member-photo img {
+	width: 50px;
+	height: 50px;
+}

@@ -63,6 +63,7 @@ Main Content
 
 #content_main h1 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 35px; font-weight: normal; color: #565245; font-weight: 400;}
 #content_main h2 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 1.5em; color: #820000; margin: 20px 0px 5px 0px; letter-spacing: 1px; line-height: 1.2em; text-transform: none;}
+/*#content_main h3 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 1.4em; color: #565245; margin: 20px 0px 5px 0px; line-height: 1.2em;}*/
 #content_main h3 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 1.4em; color: #565245; margin: 20px 0px 5px 0px; line-height: 1.2em;}
 #content_main h4 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 1.3em; color: #820000; margin: 20px 0px 5px 0px; line-height: 1.2em;}
 #content_main h5 {font-family: Georgia, "Times New Roman", Times, serif; font-size: 1.2em; color: #565245; margin: 20px 0px 5px 0px; line-height: 1.2em;}
